@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+    margin:0;
+    padding: 0;
+    font-family: 'Satisfy', cursive;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+}
+
+div.box {
+    float:left;
+    width: 40%;
+    height: 200px;
+    background-color: lime;
+    color: yellow;
+    font-size: 30px;
+    padding: 20px;
+}
+
+div#one {
+    background: ;
+}
+
+div#two {
+    background: ;
+}
