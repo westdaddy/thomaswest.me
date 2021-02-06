@@ -9,25 +9,25 @@ h1, h3 {
   font-family: 'Monoton', cursive;
 }
 
+a:link, a:visited {
+  color: #F56960;
+}
+
+a:hover, a:active {
+  color: #F53B05;
+}
+
 div#top {
   width: 100%;
   background-color: #F53B05;
-  padding: 5px 0;
-  border-bottom: 10px solid #FF554F;
-}
-
-div#top span.a{
-  width: 10px;
-  height: auto;
-  float: left;
-  background-color: red;
-  content: " ";
-  position: relative;
+  padding: 25px 0;
+  border-bottom: 20px solid #F56960;
 }
 
 h1 {
     font-size: 50px;
     color: white;
+    margin: 0px 0;
 }
 
 div.container {
@@ -39,7 +39,7 @@ div.container {
 div.box {
     height: auto;
     font-size: 20px;
-    padding: 60px 0px 10px;
+    padding: 50px 0px 50px;
     border-bottom: 1px solid #F5C0A5;
 }
 
