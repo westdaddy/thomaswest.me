@@ -1,38 +1,65 @@
 body {
-    background-color: red;
+    background-color: #F7E3D1;
     margin:0;
     padding: 0;
-    font-family: 'Satisfy', cursive;
+font-family: 'Playfair Display', serif;
+}
+
+h1, h3 {
+  font-family: 'Monoton', cursive;
+}
+
+div#top {
+  width: 100%;
+  background-color: #F53B05;
+  padding: 5px 0;
+  border-bottom: 10px solid #FF554F;
+}
+
+div#top span.a{
+  width: 10px;
+  height: auto;
+  float: left;
+  background-color: red;
+  content: " ";
+  position: relative;
 }
 
 h1 {
     font-size: 50px;
-    color: yellow;
-    text-align: center;
+    color: white;
+}
+
+div.container {
+  width: 35%;
+  min-width: 800px;
+  margin: 0 auto;
 }
 
 div.box {
-    float:left;
-    width: 50%;
     height: auto;
-    background-color: red;
-    color: yellow;
-    font-size: 30px;
-    padding: 20px;
-    margin: 50px 25%;
-    border-bottom: 5px solid black;
+    font-size: 20px;
+    padding: 60px 0px 10px;
+    border-bottom: 1px solid #F5C0A5;
+}
+
+div.box p {
+  font-size: 20px;
+  line-height: 2em;
+  margin: 0 50px 15px 0;
 }
 
 div.box h3 {
-  color: white;
-  font-size: 30px;
+  color: #F53B05;
+  font-size: 35px;
   padding: 0;
   margin: 0;
 }
 
 div.box p.date {
   font-size: 14px;
-  color: white;
+  color: #F53B05;
+  margin: 0;
 }
 
 div#one {
